@@ -1,0 +1,41 @@
+<!-- Ini untuk halaman newform yaitu untuk membuat form penguploadan dokumen tugas -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Form Page</title>
+  </head>
+  <body>
+    <header>
+      <!-- Ini header dari halaman newform -->
+      <img src="poto-profil.png" alt="Poto Profil" style="margin-left: 30px;">
+      <div style="display: inline-block; margin-left: 10px;">
+        <button type="submit" style="width:30px; height:30px; border-radius:50%; margin-left: 150px;" 
+        onclick="window.location.href='newform.html';">+</button>
+        <button type="submit" style="border: none; background: none; box-shadow: none; margin-left: 50px;"
+        onclick="window.location.href='homepage.html';">Home</button> 
+        <button type="submit" style="border: none; background: none; box-shadow: none; margin-left: 50px;"
+        onclick="window.location.href='upload.html';">Upload</button>  
+        <button type="submit" style="border: none; background: none; box-shadow: none; margin-left: 50px;"
+        onclick="window.location.href='recent.html';">Recent</button> 
+      </div>
+      <input type="text" placeholder="Search" style="margin-left: 40px;">
+      <button style="margin-left: 50px;">My Account</button>
+    </header>
+
+
+    
+    <div>
+      <!-- Ini merupakan tampilan dari halam newform  -->
+        <h1 style="font-weight: bold; margin-left: 150px; margin-top: 70px;">Make your own form</h1>
+        <label for="name" style="margin-left: 150px;">Name</label>
+        <input type="text" id="name" name="name" style="margin-left: 110px;"><br><br>
+        <label for="doc-type" style="margin-left: 150px;">Document Type</label>
+        <input type="text" id="doc-type" name="doc-type" style="margin-left: 47px;"><br><br>
+        <label for="due-date" style="margin-left: 150px;">Due Date</label>
+        <input type="date" id="due-date" name="due-date" style="margin-left: 90px;"><br><br><br>
+        <button style="margin-left: 440px;">Ok</button>
+      </div>
+      
+    
+  </body>
+</html>

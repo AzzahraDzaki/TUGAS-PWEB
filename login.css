@@ -1,0 +1,85 @@
+/* Styling for Login Page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .logo {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .login-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Styling for logo */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Styling for Login to Studentify */
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .login-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .facebook-button,
+  .google-button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #CC6B49; /* Facebook blue */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .facebook-button:hover,
+  .google-button:hover {
+    background-color: #CC6B49; /* Darker shade of Facebook blue */
+  }
+  
+  /* Styling for login form */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  /* Styling for forget password link */
+  small a {
+    color: #666;
+  }
